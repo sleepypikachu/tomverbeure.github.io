@@ -135,6 +135,11 @@ doesn't come with a specification sheet or manual, and there is no mention anywh
 about the type of output. When put on a scope, I can see 10MHz sinewave with an
 amplitude of +-1.1V into a 50 Ohm termination resistor.
 
+The 1PPS output is a 5V TTL signal with 100ms on and 900ms off time. 
+
+On my oscilloscope, there was no obvious jitter between the 10MHz reference clock and
+the 1PPS output.
+
 # Inside the TM4313
 
 Opening the TM4313 is a simple matter of removing 2 Torx T6 screws and sliding out the PCB.
